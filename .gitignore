@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+
+.env
+*.json
+
+credentials/
+secrets/
+
+.DS_Store
