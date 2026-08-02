@@ -3,10 +3,10 @@ from datetime import datetime, timezone
 
 from google.cloud import bigquery
 
-from extract import extract_weather_data
-from transform import transform_weather_data
-from validate import validate_weather_data
-from load import load_to_staging, merge_to_fact
+from src.extract import extract_weather_data
+from src.transform import transform_weather_data
+from src.validate import validate_weather_data
+from src.load import load_to_staging, merge_to_fact
 
 
 # --------------------------------------------------
