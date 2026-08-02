@@ -7,6 +7,7 @@ A portfolio-quality **Python ETL pipeline** that extracts weather forecast data 
 WEAFOLK is a modular data engineering project designed to demonstrate an end-to-end ETL workflow.
 The pipeline collects hourly weather forecast data for Mumbai from the Open-Meteo API and processes it through the following stages:
 
+```text
 Open-Meteo API
       │
       ▼
@@ -31,7 +32,7 @@ FACT TABLE
       ▼
 PIPELINE LOGGING
 
-
+```
 
 2> Project Objectives:
 The main objectives of WEAFOLK are to:
