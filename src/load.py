@@ -40,7 +40,7 @@ def merge_to_fact(client):
     USING `weafolk.weather_analytics.stg_weather_forecast` AS source
 
     ON target.location_id = source.location_id
-    AND target.observation_time = source.observation_time
+    AND TIMESTAMP(target.observation_time) = source.observation_time
 
     WHEN MATCHED THEN
       UPDATE SET
